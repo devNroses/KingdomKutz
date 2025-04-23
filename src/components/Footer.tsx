@@ -32,25 +32,19 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-barber-gold mr-2 mt-1" />
-                <span>123 Barber Street, Portland, OR 97205</span>
+                <span>7529 NE Glisan St, Portland, OR 97213</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-barber-gold mr-2" />
-                <a href="tel:+15035555555" className="hover:text-barber-gold transition-colors">
-                  (503) 555-5555
-                </a>
-              </li>
-              <li className="flex items-center">
-                <Mail className="h-5 w-5 text-barber-gold mr-2" />
-                <a href="mailto:info@kingdomkuts.com" className="hover:text-barber-gold transition-colors">
-                  info@kingdomkuts.com
+                <a href="tel:+15032550085" className="hover:text-barber-gold transition-colors">
+                  (503) 255-0085
                 </a>
               </li>
             </ul>
           </div>
           
           {/* Hours */}
-          <div>
+          {/* <div>
             <h3 className="text-xl font-heading font-bold mb-4 uppercase">Business Hours</h3>
             <ul className="space-y-2">
               <li className="flex items-center">
@@ -75,7 +69,7 @@ const Footer = () => {
                 </div>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">

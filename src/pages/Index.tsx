@@ -13,7 +13,7 @@ const Index = () => {
     document.body.className = "bg-barber-light";
   }, []);
 
-  const priceCardList = [
+    const priceCardList = [
     {
       title:"Hair Kut & Beard",
       price:"$30 & up",
@@ -142,12 +142,12 @@ const Index = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {priceCardList.map(card => (
-              <ServiceCard 
-                title={card.title} 
-                price={card.price}
+              <ServiceCard
+                title={card.title}
                 description={card.description}
+                price={card.price}
                 icon={<Scissors size={24} />}
-              />
+               />
             ))}
           </div>
           
@@ -174,7 +174,7 @@ const Index = () => {
               <p className="text-gray-700 mb-6">
                The experience begins when you walk through the door; The smell, the music, the décor. We have created the perfect atmosphere where you can relax and get your desired haircut. Join us for a family-friendly environment that welcomes everyone together for memory-making, barbershop experiences.
               </p>
-              
+          </div>
             <div className="relative">
               <img 
                 src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=1568&auto=format&fit=crop" 
@@ -185,9 +185,9 @@ const Index = () => {
                 <h3 className="font-heading text-xl font-bold mb-2">10+ Years</h3>
                 <p>Of providing exceptional barbering services to our community</p>
               </div>
-            </div>
-          </div>
         </div>
+      </div>
+      </div>
       </section>
       
       {/* Gallery Section */}
@@ -235,36 +235,6 @@ const Index = () => {
         </div>
       </section>
       
-      {/* Testimonials Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="section-title">Client Testimonials</h2>
-            <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-              Don't just take our word for it. Here's what our clients have to say about their experience with Kingdom Kuts.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <TestimonialCard 
-              quote="Best barbershop in Portland hands down. My barber always gives me a clean fade and takes his time to make sure everything is perfect."
-              author="Michael Johnson"
-              role="Client for 3 years"
-            />
-            <TestimonialCard 
-              quote="I've been going to Kingdom Kuts for over 5 years. The atmosphere is great and they really know how to handle black hair. Highly recommend!"
-              author="David Williams"
-              role="Loyal Customer"
-            />
-            <TestimonialCard 
-              quote="The attention to detail is unmatched. From the moment you walk in to the hot towel finish, the whole experience is top notch."
-              author="Robert Thompson"
-              role="Client for 1 year"
-            />
-          </div>
-        </div>
-      </section>
-      
       {/* Booking Section */}
       <section 
         id="booking" 
@@ -284,16 +254,7 @@ const Index = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <a 
-                href="https://booksy.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="bg-barber-gold text-black flex items-center justify-center font-heading uppercase px-6 py-4 rounded-sm hover:opacity-90 transition-opacity"
-              >
-                <Calendar className="mr-2 h-5 w-5" />
-                Book Online
-              </a>
-              <a 
-                href="tel:+15035555555" 
+                href="tel:+15032550085 " 
                 className="border-2 border-white text-white flex items-center justify-center font-heading uppercase px-6 py-4 rounded-sm hover:bg-white/10 transition-colors"
               >
                 <Phone className="mr-2 h-5 w-5" />
@@ -301,7 +262,7 @@ const Index = () => {
               </a>
             </div>
             
-            <div className="text-gray-300">
+            {/* <div className="text-gray-300">
               <p className="mb-4">Walk-ins are welcome based on availability.</p>
               <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-4">
                 <div className="flex items-center">
@@ -319,7 +280,7 @@ const Index = () => {
                   <span>Sun: Closed</span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -337,15 +298,15 @@ const Index = () => {
               <div className="mb-6">
                 <h3 className="font-heading font-bold text-xl mb-2">Kingdom Kuts PDX</h3>
                 <address className="not-italic text-gray-600">
-                  123 Barber Street<br />
-                  Portland, OR 97205<br />
-                  <a href="tel:+15035555555" className="text-barber-gold hover:underline mt-2 inline-block">
-                    (503) 555-5555
+                 7529 NE Glisan St <br/>
+                  Portland, OR 97213<br />
+                  <a href="tel:+15032550085" className="text-barber-gold hover:underline mt-2 inline-block">
+                    503-255-0085 
                   </a>
                 </address>
               </div>
               
-              <div className="mb-6">
+              {/* <div className="mb-6">
                 <h3 className="font-heading font-bold text-xl mb-2">Hours of Operation</h3>
                 <ul className="space-y-1 text-gray-600">
                   <li className="flex justify-between">
@@ -361,37 +322,20 @@ const Index = () => {
                     <span>Closed</span>
                   </li>
                 </ul>
-              </div>
-              
-              <div>
-                <h3 className="font-heading font-bold text-xl mb-2">Connect With Us</h3>
-                <div className="flex space-x-4">
-                  <a 
-                    href="#" 
-                    className="bg-barber-black text-white p-3 rounded-sm hover:bg-barber-gold hover:text-black transition-colors"
-                  >
-                    <Instagram size={20} />
-                  </a>
-                  <a 
-                    href="#" 
-                    className="bg-barber-black text-white p-3 rounded-sm hover:bg-barber-gold hover:text-black transition-colors"
-                  >
-                    <Facebook size={20} />
-                  </a>
-                </div>
-              </div>
+              </div> */}
+
             </div>
             
-            <div className="h-96 bg-gray-200 rounded-sm overflow-hidden">
+            {/* <div className="h-96 bg-gray-200 rounded-sm overflow-hidden"> */}
               {/* This is a placeholder for an actual Google Map integration */}
-              <div className="w-full h-full flex items-center justify-center bg-gray-200">
+              {/* <div className="w-full h-full flex items-center justify-center bg-gray-200">
                 <div className="text-center">
                   <MapPin className="h-12 w-12 text-barber-gold mx-auto mb-4" />
                   <p className="text-gray-600">Map integration will be implemented here</p>
                   <p className="text-sm text-gray-500 mt-2">123 Barber Street, Portland, OR 97205</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
