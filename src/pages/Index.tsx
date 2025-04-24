@@ -90,9 +90,9 @@ const Index = () => {
         id="home" 
         className="min-h-screen bg-barber-black relative flex items-center"
         style={{
-          backgroundImage: "linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=1470&auto=format&fit=crop')",
+          backgroundImage: "linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url('images/9a6719bedb5e4f47fbd909f2e2117222.jpg')",
           backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundPosition: "left",
         }}
       >
         <div className="container mx-auto px-4 py-20 mt-12">
@@ -177,8 +177,8 @@ const Index = () => {
           </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=1568&auto=format&fit=crop" 
-                alt="Barber Shop Interior" 
+                src="images/2ed56624fb03380d238b913baa08ae4c.jpg" 
+                alt="Barber Shop Experience" 
                 className="rounded-sm w-full h-auto object-cover shadow-lg"
               />
               <div className="absolute -bottom-6 -right-6 bg-barber-black text-white p-6 rounded-sm shadow-lg max-w-xs">
@@ -202,35 +202,46 @@ const Index = () => {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <GalleryItem 
-              imgSrc="https://images.unsplash.com/photo-1596702874230-b5706dfb5bc7?q=80&w=1587&auto=format&fit=crop" 
-              title="Classic Fade"
-              subtitle="Precision cut with clean lines" 
+              imgSrc="images/c9fba1_1e67a4a260664e6f9314235835070eb2~mv2 copy.jpg" 
+              title=""
+              subtitle="" 
             />
             <GalleryItem 
-              imgSrc="https://images.unsplash.com/photo-1593702288056-f5b372ebad7b?q=80&w=1587&auto=format&fit=crop" 
-              title="Beard Styling"
-              subtitle="Expert grooming and shaping" 
+              imgSrc="images/c9fba1_7a4f7ce9e9d9487d9f6dbda1480c40cd~mv2 copy.jpg" 
+              title=""
+              subtitle="" 
             />
             <GalleryItem 
-              imgSrc="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1470&auto=format&fit=crop" 
-              title="Modern Cut"
-              subtitle="Contemporary style with texture" 
+              imgSrc="images/c9fba1_90fb7db1769242ea92e9d999cdd76231~mv2 copy.jpg" 
+              title=""
+              subtitle="" 
             />
             <GalleryItem 
-              imgSrc="https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=1587&auto=format&fit=crop" 
-              title="Razor Fade"
-              subtitle="Sharp definition and detail" 
+              imgSrc="images/c9fba1_2781b6ebda6748848141948d92fcacfc~mv2 copy.jpg" 
+              title=""
+              subtitle="" 
             />
             <GalleryItem 
-              imgSrc="https://images.unsplash.com/photo-1622296176731-a215859ae5f2?q=80&w=1470&auto=format&fit=crop" 
-              title="Design Work"
-              subtitle="Artistic patterns and lines" 
+              imgSrc="images/c9fba1_b1880f7f50744dbebd435ac9905f51e3~mv2 copy.jpg" 
+              title=""
+              subtitle="" 
             />
             <GalleryItem 
-              imgSrc="https://images.unsplash.com/photo-1580486757277-7683d76243ed?q=80&w=1470&auto=format&fit=crop" 
-              title="Classic Haircut"
-              subtitle="Timeless style and precision" 
+              imgSrc="images/c9fba1_c6b1625818a44526bcefbd6068276a36~mv2 copy.jpg" 
+              title=""
+              subtitle="" 
             />
+            <GalleryItem 
+              imgSrc="images/c9fba1_dd0a8bf00ad84aab89a5a6450a3ff72c~mv2 copy.jpg" 
+              title=""
+              subtitle="" 
+            />
+            <GalleryItem 
+              imgSrc="images/c9fba1_fdbade8f56cc4ff4849a99ce7c642ed2~mv2 copy.jpg" 
+              title=""
+              subtitle="" 
+            />
+           
           </div>
         </div>
       </section>
@@ -252,7 +263,7 @@ const Index = () => {
               Book your appointment today and experience the Kingdom Kuts difference.
             </p>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mb-8">
               <a 
                 href="tel:+15032550085 " 
                 className="border-2 border-white text-white flex items-center justify-center font-heading uppercase px-6 py-4 rounded-sm hover:bg-white/10 transition-colors"
