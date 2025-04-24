@@ -34,7 +34,7 @@ const Index = () => {
       description:""
     },
     {
-      title:"Line Up, Taper",
+      title:"Line Up and Taper",
       price:"$30 & up",
       description:""
     },
@@ -148,7 +148,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="section-title mb-6">About Kingdom Kutz</h2>
+              <h2 className="section-title mb-6">About Kingdom Kuts</h2>
               <p className="text-gray-700 mb-4">
                At Kingdom Kuts, we are committed to providing unparalleled hair styling and grooming services that are tailored to your unique lifestyle!
               </p>
