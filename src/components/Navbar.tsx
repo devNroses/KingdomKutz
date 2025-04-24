@@ -40,7 +40,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center">
           <a href="#" className="text-white font-heading text-2xl md:text-3xl font-bold">
-            KINGDOM <span className="text-barber-gold">KUTZ</span>
+            KINGDOM <span className="text-barber-gold">KUTS</span>
           </a>
         </div>
         
