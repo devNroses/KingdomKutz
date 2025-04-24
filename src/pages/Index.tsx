@@ -1,11 +1,10 @@
 
 import { useEffect } from "react";
-import { Scissors, Clock, Bed, Users, Star, Calendar, Phone, Instagram, Facebook, MapPin } from "lucide-react";
+import { Scissors, Phone } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
 import GalleryItem from "@/components/GalleryItem";
-import TestimonialCard from "@/components/TestimonialCard";
 
 const Index = () => {
   // Set background color on load
