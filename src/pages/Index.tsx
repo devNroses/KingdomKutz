@@ -15,43 +15,38 @@ const Index = () => {
 
     const priceCardList = [
     {
-      title:"Hair Kut & Beard",
-      price:"$30 & up",
+      title:"Haircut and Beard",
+      price:"$40 & up",
       description:"If you prefer Dry Shave instead of Beard, please inform the barber"
     },
     {
-      title:"Hair Kut",
-      price:"$30 & up",
-      description:""
-    },
-    {
-      title:"Hot Towel Shave",
+      title:"Haircut",
       price:"$35 & up",
       description:""
     },
     {
-      title:"Kidz Kutz (2yrs - 13yrs)",
-      price:"$25 & up",
+      title:"Hot Towel Shave",
+      price:"$40 & up",
       description:""
     },
     {
-      title:"Line Up, Taper & Beard",
-      price:"$25 & up",
+      title:"Kids Cut (2yrs - 13yrs)",
+      price:"$30 & up",
       description:""
     },
     {
-      title:"Line Up & Taper",
-      price:"$20 & up",
+      title:"Line Up, Taper",
+      price:"$30 & up",
       description:""
     },
     {
       title:"Line Up",
-      price:"$17 & up",
+      price:"$25 & up",
       description:""
     },
     {
       title:"Beard Trim",
-      price:"$15 & up",
+      price:"$20 & up",
       description:""
     },
     {
@@ -67,16 +62,6 @@ const Index = () => {
     {
       title:"Shampoo",
       price:"$8 & up",
-      description:""
-    },
-    {
-      title:"Services Scheduled after 6pm",
-      price:"$10 & up",
-      description:""
-    },
-    {
-      title:"Additional Fee for all services after 7pm",
-      price:"$10",
       description:""
     },
   ]
@@ -317,23 +302,27 @@ const Index = () => {
                 </address>
               </div>
               
-              {/* <div className="mb-6">
+              <div className="mb-6">
                 <h3 className="font-heading font-bold text-xl mb-2">Hours of Operation</h3>
                 <ul className="space-y-1 text-gray-600">
                   <li className="flex justify-between">
-                    <span>Monday - Friday</span>
-                    <span>9:00 AM - 7:00 PM</span>
+                    <span>Tuesday - Thursday</span>
+                    <span>11:00 AM - 6:00 PM</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Saturday</span>
-                    <span>8:00 AM - 5:00 PM</span>
+                    <span>Friday & Saturday</span>
+                    <span>10:00 AM - 6:00 PM</span>
                   </li>
                   <li className="flex justify-between">
                     <span>Sunday</span>
                     <span>Closed</span>
                   </li>
+                  <li className="flex justify-between">
+                    <span>Monday</span>
+                    <span>Appointments Only</span>
+                  </li>
                 </ul>
-              </div> */}
+              </div>
 
             </div>
             
