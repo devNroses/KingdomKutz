@@ -16,7 +16,7 @@ const Index = () => {
     {
       title:"Haircut and Beard",
       price:"$40 & up",
-      description:"If you prefer Dry Shave instead of Beard, please inform the barber"
+      description:""
     },
     {
       title:"Haircut",
