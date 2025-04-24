@@ -314,11 +314,11 @@ const Index = () => {
                   </li>
                   <li className="flex justify-between">
                     <span>Sunday</span>
-                    <span>Closed</span>
+                    <span>Closed - Appointments Only</span>
                   </li>
                   <li className="flex justify-between">
                     <span>Monday</span>
-                    <span>Appointments Only</span>
+                    <span>Closed - Appointments Only</span>
                   </li>
                 </ul>
               </div>
